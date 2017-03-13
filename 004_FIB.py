@@ -31,7 +31,11 @@ def main():
     print rabbits
     with open('output/004_FIB.txt', 'w') as output_data:
         output_data.write(rabbits)
-
+'''
+useage:
+xrange: see thie websiteLhttp://blog.csdn.net/karldoenitz/article/details/23476801
+rabbits[i % 2] = rabbits[(i-1) % 2] + k*rabbits[i % 2] is prefect function
+'''
 
 if __name__ == '__main__':
     main()
