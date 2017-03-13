@@ -30,6 +30,13 @@ def main():
     print ' '.join(base_count)
     with open('output/001_DNA.txt', 'w') as output_data:
         output_data.write(' '.join(base_count))
-
+'''
+useage：
+map: map(func, *iterables)
+Counter :see this website: http://www.pythoner.com/205.html
+join:
+	str.join(sequence)
+	see this website:http://www.runoob.com/python/att-string-join.html
+'''
 if __name__ == '__main__':
     main()
