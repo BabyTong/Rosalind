@@ -31,5 +31,13 @@ def main():
     with open('output/003_REVC.txt', 'w') as output_data:
         output_data.write(rev_comp)
 
+"""
+uesage: 
+maketrans: 
+	often use with translate
+	see this website: http://www.runoob.com/python/att-string-maketrans.html
+
+"""
+		
 if __name__ == '__main__':
     main()
