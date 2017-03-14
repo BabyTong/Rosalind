@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#-*- coding: UTF-8 -*-
 '''
 A solution to a ROSALIND bioinformatics problem.
 
@@ -7,6 +8,7 @@ Rosalind ID: GC
 Rosalind #: 005
 URL: http://rosalind.info/problems/gc/
 '''
+
 from scripts import ReadFASTA
 
 
@@ -26,6 +28,14 @@ def main():
     print '\n'.join(highest_gc)
     with open('output/005_GC.txt', 'w') as output_data:
         output_data.write('\n'.join(highest_gc))
+
+'''
+useage:
+lambda:see this website :http://www.cnblogs.com/BeginMan/p/3178103.html
+ReadFASTA:
+max：max(xxx,xxx,key=lambda x:x[1])
+see :https://www.oschina.net/code/snippet_111708_16478
+'''
 
 if __name__ == '__main__':
     main()
