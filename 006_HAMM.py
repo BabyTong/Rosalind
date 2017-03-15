@@ -26,12 +26,20 @@ def main():
         seq1, seq2 = [line.strip() for line in input_data]
 
     # Get the Hamming Distance.
-    h_dist = str(hamming_distance(seq1,seq2))
+    h_dist = str(hamming_distance(seq1, seq2))
 
     # Print and save the answer.
     print h_dist
     with open('output/.txt', 'w') as output_data:
         output_data.write(h_dist)
+'''
+USEAGE:
+imap:see this website：http://blog.csdn.net/hehe123456ZXC/article/details/52597448
+ne:
+see this website:http://blog.csdn.net/sushengmiyan/article/details/11332589
+http://blog.csdn.net/shengmingqijiquan/article/details/53005129
+
+'''
 
 if __name__ == '__main__':
     main()
