@@ -36,7 +36,20 @@ def mendels_first_law(hom, het, rec):
     # Note: comb() returns float type, so we're fine doing division as is.
     return 1 - total_rec/total
 
-
+'''
+useage:
+comb:comb(N, k, exact=False, repetition=False)
+N : int, ndarray
+        Number of things.
+    k : int, ndarray
+        Number of elements taken.
+    exact : bool, optional
+        If `exact` is False, then floating point precision is used, otherwise
+        exact long integer is computed.
+    repetition : bool, optional
+        If `repetition` is True, then the number of combinations with
+        repetition is computed.
+'''
 def main():
     """Main call. Parses, runs, and saves problem specific data."""
     # Read the input data.
